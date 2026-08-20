@@ -1,0 +1,49 @@
+# Compiler files
+cache/
+out/
+
+# Excluir arquivos de debug e logs
+*.log
+debug.log
+docker-logs/
+
+# Dotenv file
+.env
+.env.dev
+.env.qa
+
+.DS_Store
+.idea
+.cursor
+
+artifacts
+generated-types
+typechain-types
+node_modules
+cache_hardhat
+*bindings/*
+bindings/*.abi
+bindings/*.bin
+
+*messageIdsAlreadyProcessedOnMockRelayer.json*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.tmp
+*.swp
+*.dot
+
+# Temporary clone directory for sync-contracts
+tmp-rctmp/
+
+# Ignore remote contracts folder
+contracts/remote/
+
+# Reports
+reports/
+mochawesome-report/
+
+# AI
+.junie
